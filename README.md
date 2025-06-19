@@ -5,4 +5,4 @@ features:
 --> zoomable to nearly street level
 --> smooth-zooming on mouse click on pins
 --> display of IST and GMT, increase in size when hovered
---> 
+
