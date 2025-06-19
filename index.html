@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Anays UK Trip</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <br>
+  <h1>Anay's UK Road Trip Planner</h1>
+  <div id="container">
+    <div id="map"></div>
+    <div id="gap"></div>
+    <div id="photo-box">
+      <h2>📸 Location Photo 📸</h2>
+      <img id="location-photo" src="engscot(2).png" />
+      <h4 id="photo-caption"> 🖱️ Hover over the pins </h4>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYpAQTphypvzb53PTN0XEUoQG2kJFnMnw&callback=initMap">
+  </script>
+  <div id="time-box">
+  <div id="uk-time">UK Time: --:--:--</div>
+  <div id="india-time">India Time: --:--:--</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image:url("unionjack.jpg"); 
+  background-size: cover;
+  background-position: center;
+}
+
+#container {
+  display: flex;
+  height: 77vh;
+  max-width: 1300px;
+  margin: 0 auto 30px auto;
+  background: transparent;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+#map {
+  flex: 14;
+  height: 100%;
+  background: rgba(108, 198, 226, 0.1);
+  border-radius: 30px;
+  box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#gap {
+  flex: 1;
+}
+
+#photo-box {
+  flex: 9;
+  background: rgb(255, 255, 255,0.4);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: inset 5px 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#photo-box img {
+  width: 74%;
+  max-height: 80%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5px;
+  /*box-shadow: 0 4px 10px rgba(0,0,0,0.4);*/
+  margin-bottom: 6px;
+}
+
+#photo-caption {
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+#time-box {
+  position: fixed;
+  top: 14px;
+  right: 14px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  text-align: right;
+  z-index: 999;
+  color: #000;
+  transition: transform 0.5s ease-in-out;
+}
+
+#time-box:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 15px auto 10px auto;
+  width: fit-content;
+  padding: 10px 22px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  color: #222;
+  font-size: 22px;
+  font-weight: bold;
+  transition: transform 0.5s ease-in-out;
+}
+h1:hover {
+  transform: scale(1.08);
+}
+h2 {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  margin: 10px 0;
+}
