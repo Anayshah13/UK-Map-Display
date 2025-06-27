@@ -39,7 +39,7 @@ body {
   box-shadow: inset 5px 0 10px rgba(0, 0, 0, 0.05);
 }
 
-#photo-box img {
+#location-photo {
   width: 74%;
   max-height: 80%;
   height: auto;
@@ -89,11 +89,12 @@ h1 {
   transition: transform 0.5s ease-in-out;
 }
 h1:hover {
-  transform: scale(1.08);
+  transform: scale(1.1);
 }
 h2 {
   font-size: 20px;
   color: #000;
   font-weight: bold;
   margin: 10px 0;
+  text-align: center;
 }

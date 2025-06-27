@@ -71,8 +71,32 @@ const locations = [
   name: "The Kelpies",
   position: { lat: 56.0200, lng: -3.7533 },
   photo: "location-images/kelpies.jpg", 
-  }
-
+  },
+  {
+  name: "Isle of Skye",
+  position: { lat: 57.5359, lng: -6.2263 },
+  photo: "location-images/skye.jpg"
+},
+{
+  name: "Woburn Safari Park",
+  position: { lat: 52.0024, lng: -0.6055 },
+  photo: "location-images/woburn.jpg"
+},
+{
+  name: "Old Trafford",
+  position: { lat: 53.4631, lng: -2.2913 },
+  photo: "location-images/trafford.jpg"
+},
+{
+  name: "Headingley Cricket Stadium",
+  position: { lat: 53.8190, lng: -1.5821 },
+  photo: "location-images/headingley.jpg"
+},
+{
+  name: "Harry Potter Bridge (Glenfinnan Viaduct)",
+  position: { lat: 56.8714, lng: -5.4311 },
+  photo: "location-images/harrypotterbridge.jpg"
+}
 ];
 
 
@@ -93,7 +117,7 @@ function initMap() {
       latLngBounds: ukBounds,
     },
     minZoom: 3,
-    maxZoom: 16,
+    maxZoom: 20,
   });
 
   map.panBy(100, 50);
@@ -111,8 +135,9 @@ function initMap() {
 
     marker.addListener("mouseout", hidePhoto);
 
+
     marker.addListener("click", () => {
-      smoothZoomTo(loc.position, 11); 
+      smoothZoomTo(loc.position, 13); 
       map.panTo(loc.position);
     });
   });
