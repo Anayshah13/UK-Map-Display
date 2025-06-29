@@ -10,15 +10,12 @@ body {
   height: 77vh;
   max-width: 1300px;
   margin: 0 auto 30px auto;
-  background: transparent;
-  overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
 #map {
   flex: 14;
   height: 100%;
-  background: rgba(108, 198, 226, 0.1);
   border-radius: 30px;
   box-shadow: inset -5px 0 10px rgba(0, 0, 0, 0.05);
 }
@@ -45,7 +42,6 @@ body {
   height: auto;
   object-fit: contain;
   border-radius: 5px;
-  /*box-shadow: 0 4px 10px rgba(0,0,0,0.4);*/
   margin-bottom: 6px;
 }
 
@@ -66,7 +62,6 @@ body {
   font-size: 14px;
   font-family: Arial, sans-serif;
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  text-align: right;
   z-index: 999;
   color: #000;
   transition: transform 0.5s ease-in-out;
@@ -89,7 +84,7 @@ h1 {
   transition: transform 0.5s ease-in-out;
 }
 h1:hover {
-  transform: scale(1.1);
+  transform: scale(1);
 }
 h2 {
   font-size: 20px;

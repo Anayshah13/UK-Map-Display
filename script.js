@@ -1,6 +1,7 @@
 let map;
 
 const default_img = "engscot(2).png";
+
 const locations = [
   {
     name: "Natural History Museum",
