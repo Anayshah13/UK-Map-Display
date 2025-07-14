@@ -205,9 +205,8 @@ setInterval(updateTime, 1000);
 updateTime();
 
 const script = document.createElement("script");
-script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=initMap`;
+script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDRkLHkjclT6KD7oN1ZZPzjUcw7BRLDx1c&callback=initMap";
 script.async = true;
 script.defer = true;
 document.head.appendChild(script);
 
-//api key: AIzaSyCYpAQTphypvzb53PTN0XEUoQG2kJFnMnw
